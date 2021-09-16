@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Cobby_CustomValidation>
+      <version>1.0.1</version>
+    </Cobby_CustomValidation>
+  </modules>
+  <global>
+    <models>
+      <cobby_connector>
+        <rewrite>
+          <!-- Model -->
+          <import_entity_product>Cobby_CustomValidation_Model_Import_Entity_Product</import_entity_product>
+        </rewrite>
+      </cobby_connector>
+    </models>
+  </global>
+</config> 

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Cobby_CustomValidation>
+      <active>true</active>
+      <codePool>community</codePool>
+      <version>1.0.1</version>
+      <depends>
+        <Cobby_Connector/>
+      </depends>
+    </Cobby_CustomValidation>
+  </modules>
+</config>
